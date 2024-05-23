@@ -1,1 +1,3 @@
-
+firmware  = "efi"
+mks.gamingMouse.policy = "absolute"
+bios.forceSetupOnce = "TRUE"

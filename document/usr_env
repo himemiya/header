@@ -1,1 +1,11 @@
+#!/usr/bin/bash
 
+alias eza='eza -abghlm --git --icons -s=type --time-style=long-iso --color-scale
+
+export PATH=$PATH:/opt/fltter/bin
+
+export RUSTUP_HOME=/opt/Rust/rustup
+export CARGO_HOME=/opt/Rust/cargo
+
+export PATH=$CARGO_HOME/bin
+source $CARGO_HOME/env
