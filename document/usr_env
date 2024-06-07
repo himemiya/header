@@ -8,5 +8,5 @@ export CHROME_EXECUTABLE=/usr/bin/chromium
 export RUSTUP_HOME=/opt/Rust/rustup
 export CARGO_HOME=/opt/Rust/cargo
 
-export PATH=$CARGO_HOME/bin
+export PATH=$PATH:$CARGO_HOME/bin
 source $CARGO_HOME/env
