@@ -1,0 +1,2 @@
+
+podman run -it --name arch-pod --volume /home/vickie/shared:/home/mei/Shared archlinux
