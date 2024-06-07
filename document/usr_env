@@ -1,5 +1,7 @@
 #!/usr/bin/zsh
 
+export PATH=$PATH:/opt/node-v22.2.0-linux-x64/bin
+
 alias eza='eza -abghlm --git --icons -s=type --time-style=long-iso --color-scale'
 
 export PATH=$PATH:/opt/fltter/bin
