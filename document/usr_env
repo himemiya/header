@@ -1,6 +1,6 @@
 #!/usr/bin/zsh
 
-alias eza='eza -abghlm --git --icons -s=type --time-style=long-iso --color-scale
+alias eza='eza -abghlm --git --icons -s=type --time-style=long-iso --color-scale'
 
 export PATH=$PATH:/opt/fltter/bin
 export CHROME_EXECUTABLE=/usr/bin/chromium
