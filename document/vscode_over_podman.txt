@@ -1,0 +1,23 @@
+
+◎ host OS:
+
+・service and socket
+
+podman system service -t 0 &
+systemctl enable --now --user podman.socket
+
+・install podman machine
+
+
+◎ Visual Studio Code:
+
+・Preferences: Open User Settings (JSON)
+
+{
+	"docker.dockerPath": ""
+	"docker.environment": {
+		"DOCKER_HOST": "unix:///run/user/1000/podman/podman-machine-default-api.sock"
+	}
+}
+
+・Dev Containers extension
