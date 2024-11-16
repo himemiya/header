@@ -2,3 +2,24 @@
 podman pull docker.io/cachyos/cachyos-v3
 
 podman run -it --name arch-pod --volume /home/vickie/shared:/home/mei/Shared archlinux
+
+
+# container process
+
+podman pull docker.io/cachyos/cachyos-v3
+
+podman run -it --name cachy-pod --volume /home/astrid/shared:/home/vickie/shared cachyos-v3
+
+passwd
+
+pacman -Syu
+
+pacman -S zsh sudo vi
+
+useradd -G root,wheel -s /usr/bin/zsh vickie
+
+passwd vickie
+
+chown -R vickie:vickie /home/vickie
+
+chmod g+w /opt
